@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        
+        header{
+            background-color:pink;
+            height: 100px;
+            text-align: center;
+            padding-top : 20px;
+
+
+        }
+        nav{
+            background-color: skyblue;
+            height: 50px;
+            padding-top: 10px;
+        }
+        ul{
+            list-style-type: none;
+        }
+        li{
+            display: inline;
+            padding: 12px 50px;
+        
+        }
+        li a{
+            text-decoration: none;
+        
+        }
+       
+        section{
+            display: flex;
+        
+        }            
+        
+        article{
+            background-color: aquamarine;
+            height: 300px;
+            width: 40%;
+            float: left;
+            flex: 2;
+        }
+        aside{
+            background-color: lightsteelblue;
+            height: 300px;
+            width: 60%;
+            float: left;
+            flex: 1;
+        }
+        footer{
+            background-color: gray;
+            height: 100px;
+            text-align: center;
+            clear: both;
+            
+        }
+        @media(max-width:700px){
+            section{
+                flex-direction: column;
+            }
+        }
+        
+            
+        
+        
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Layout</h1>
+    </header>
+    <nav>
+        <ul>
+            <li> <a href="">Home</a> </li>
+            <li> <a href="">About us</a> </li>
+            <li> <a href="">contact us</a> </li>
+            <li> <a href="">Gallery</a> </li>
+            <li> <a href="">Contact</a> </li>
+        </ul>
+    </nav>
+<section>
+    <article>    
+        <h1 style="text-align: center;"> article layout</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, sit!</p>
+    </article>
+    <aside>
+        <h1 style="text-align: center;">Aside layout</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, atque!</p>
+    </aside>
+</section>
+    <footer>
+        <h1 style="text-align: center;" >footer</h1>
+    </footer>
+
+
+</body>
+</html>

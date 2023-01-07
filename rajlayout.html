@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Layout</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <style>
+        *{
+            margin: 0;
+        }
+        header{
+            background-color: rgb(233, 110, 135);
+            height: 100px;
+            text-align: center;
+            padding-top: 50px;
+
+        }
+        section{
+            display: flex;
+        }
+        
+
+        nav{
+            height: 200;
+            flex: 4;
+           padding-top: 50px;
+            background-color: rgb(231, 99, 99);
+        }
+        article{
+            background-color: rgb(245, 182, 105);
+            flex: 3;
+            text-align: center;
+        }
+        aside{
+            background-color: rgb(161, 84, 233);
+            flex: 3;
+            text-align: center;
+        }
+        ul{
+            list-style-type: none;
+            text-align:left ;
+        }
+        footer{
+            background-color: darkgrey;
+            text-align: center;
+            height: 80px;
+            padding-top: 50px;
+        }
+        a{
+            padding: 15PX 15PX;
+        }
+        @media(max-width:800px){
+          section{
+            flex-direction: column;
+          }
+        }
+    </style>
+</head>
+<body>
+    <header><h1> Information Technology </h1></header>
+    <section>
+        
+            <nav>
+               <a href="">Home</a>    <a href="">About</a>    <a href="">Main page</a>    <a href="">Contact</a>
+            </nav>
+            
+        <article>
+                <h3>Main Page</h3> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium harum tempore repellat fugit. Vel quas facilis dolore necessitatibus voluptatum, iure culpa facere cupiditate deleniti! Debitis eos est magni nam obcaecati.
+        </article>
+        <aside>
+                <h3>Aside Bar</h3> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque odit porro, ea consequatur cumque architecto harum quos sapiente nulla eius nesciunt a at vitae ab, enim magni incidunt laboriosam.
+        </aside>
+    </section>
+    <Footer><h2> Review here </h2></Footer>
+</body>
+</html>

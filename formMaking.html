@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+    <style>
+        *{
+            margin:0;
+           
+            
+            
+        }
+        header{
+            text-align: center;
+            background-color: coral;
+            height: 100px;
+            padding-top: 10px;
+            border: 2px solid;
+        }
+        h2{
+            background-color: aqua;
+            text-align: center;
+            height: 50px;
+            padding-top: 5px;
+            border: 2px solid;
+        }
+        section{
+            display: flex;
+            border: 2px dotted;
+        }
+        div{
+            flex: 4;
+            background-color: rgb(175, 241, 175);
+            border: 2px solid;
+        }
+        article{
+            flex: 3;
+            background-color: rgb(175, 226, 175); 
+            border: 2px solid;
+        }
+        aside{
+            flex: 3;
+            background-color: rgb(146, 231, 146);
+            border: 2px solid;
+        }
+        
+        
+        footer{
+            background-color: darkgray;
+            height: 80px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        #link{
+            display: flex;
+        }
+            .website{
+                flex: 4;
+            }
+            .women{
+                flex: 4;
+            }
+            
+        
+        
+
+    </style>
+</head>
+<body>
+    <header><h1>WELCOME</h1></header>
+
+     <h2> Navigation Menu </h2>
+     
+    
+        <img style="width: 100%; height:400px" src="images/coffe.jpg" alt="coffee image">
+    <br><br><br>
+    <section>
+        <div>
+
+            <img style="width: 40%;height: 40%;" src="images/images.jpg" alt="images">
+             Description:- Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit expedita incidunt voluptatibus natus voluptas ratione accusamus quis aut quibusdam nobis!
+        </div>
+
+    <article>
+        <h3>Article Info</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, ducimus id eligendi deserunt nobis repellendus eum dolore quibusdam deleniti eaque!</p>
+    </article>
+    <aside>
+        <h3>Registration Form</h3>
+        <form>
+
+           Candidates Name:- <input type="text" placeholder="Enter your name"><br><br>
+           Birth Date:- <input type="datetime-local" ><br><br>
+           Select Gender:- <label> <input type="radio" name="gender">Male </label>
+                            <label> <input type="radio" name="gender">Female </label> <br><br>
+
+           Education:-  <select>
+                         <option>--Select--</option>
+                         <option>10th</option>
+                         <option>12th</option>
+                         <option>Graduated</option>
+                         <option>None of this</option>
+                        </select>
+
+
+           <br><br><br>
+        </form>
+    </aside>
+    </section>
+      <div id="link">
+        <a class="website" href="https://www.w3schools.com/html/html5_video.asp" target="_blank">Click here </a>
+    
+        <video class="women" controls muted autoplay>
+            <source src="media/Woman - 58142.mp4">
+        </video>
+    </div>
+      
+        
+    
+    
+        
+    
+    <footer><h1> If any Queries Ask here </h1></footer>
+</body>
+</html>

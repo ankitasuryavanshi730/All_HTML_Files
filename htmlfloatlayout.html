@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Float Layout</title>
+    <style>
+        header{
+            background-color: gray;
+            color: white;
+            text-align: center;
+            height: 100px;
+            padding-top: 10px;
+        }
+        nav{
+            background-color: rgb(179, 174, 174);
+            width: 30%;
+            height: 200px;
+            float: left;
+        }
+        ul{
+            list-style-type: none;
+           
+        }
+        section{
+            background-color: antiquewhite;
+            height: 200px;
+            width: 70%;
+            float: left;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            height: 80px;
+            text-align: center;
+            clear: both;
+        }
+
+        @media (max-width:700px) {
+            nav,section{
+                width: 100%;
+                height: auto;   
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cities</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">London</a></li>
+            <li><a href="">Paris</a></li>
+            <li><a href="">Tokyo</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>London</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste necessitatibus quia facilis tenetur quaerat molestias odit vero. Soluta ut, quas, asperiores odio aliquam laboriosam, quos aspernatur perferendis sapiente fuga sed!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam enim quas omnis tempora maiores? Fugiat voluptatum, similique iusto laboriosam doloribus labore a. Autem ipsa debitis id ipsam vitae odit voluptas.</p>
+    </section>
+    <footer>
+        <h3>Footer</h3>
+    </footer>
+</body>
+</html>
